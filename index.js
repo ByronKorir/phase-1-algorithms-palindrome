@@ -1,10 +1,18 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+  word = word.toLowerCase();
+  //checking if word is a palindrome
+ return word === word.split('').reverse().join('');
+ }
+
 
 /* 
   Add your pseudocode here
-*/
+*///the function should take a String
+// convert the string to lowercase(using.toLowerCase())method
+// check if the reverse and forward matches using=> [.split().reverse().join()] methods
+
+
 
 /*
   Add written explanation of your solution here
